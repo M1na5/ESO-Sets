@@ -8,7 +8,8 @@
    "Eigenschaft": "Rüstung",
    "Link": "https://eso-hub.com/de/sets/zeichen-des-ausgestossenen",
    "Ort": "Wrothgar",
-   "Set-Typus": "5er"
+   "Set-Typus": "5er",
+   "TooltipImg": "assets/tooltips/zeichen-des-ausgestossenen.png"
  },
  {
    "Name": "Rüstung des Auszubildenden",
@@ -19,7 +20,8 @@
    "Eigenschaft": "Ressourcen",
    "Link": "https://eso-hub.com/de/sets/rustung-des-auszubildenden",
    "Ort": "Anfängergebiete",
-   "Set-Typus": "3er"
+   "Set-Typus": "3er",
+   "TooltipImg": "assets/tooltips/rustung-des-auszubildenden.png"
  },
  {
    "Name": "Druidenflechte",
@@ -30,7 +32,8 @@
    "Eigenschaft": "Ressourcen",
    "Link": "https://eso-hub.com/de/sets/druidenflechte",
    "Ort": "Hochinsel und Amenos",
-   "Set-Typus": "12er"
+   "Set-Typus": "12er",
+   "TooltipImg": "assets/tooltips/druidenflechte.png"
  },
  {
    "Name": "Akavirische Drachengarde",
@@ -41,7 +44,8 @@
    "Eigenschaft": "Lebensreg., ultimative Kraft",
    "Link": "https://eso-hub.com/de/sets/akavirische-drachengarde",
    "Ort": "Ostmarsch",
-   "Set-Typus": "5er"
+   "Set-Typus": "5er",
+   "TooltipImg": "assets/tooltips/akavirische-drachengarde.png"
  },
  {
    "Name": "Kriegerpoet",
@@ -52,7 +56,8 @@
    "Eigenschaft": "Rüstung, Leben",
    "Link": "https://eso-hub.com/de/sets/kriegerpoet",
    "Ort": "Vvardenfell",
-   "Set-Typus": "5er"
+   "Set-Typus": "5er",
+   "TooltipImg": "assets/tooltips/kriegerpoet.png"
  },
  {
    "Name": "Seuchendoktor",
@@ -63,7 +68,8 @@
    "Eigenschaft": "Leben",
    "Link": "https://eso-hub.com/de/sets/seuchendoktor",
    "Ort": "Deshan",
-   "Set-Typus": "5er"
+   "Set-Typus": "5er",
+   "TooltipImg": "assets/tooltips/seuchendoktor.png"
  },
  {
    "Name": "Messingpanzer",
@@ -74,7 +80,8 @@
    "Eigenschaft": "Rüstung",
    "Link": "https://eso-hub.com/de/sets/messingpanzer",
    "Ort": "Stadt der Uhrwerke",
-   "Set-Typus": "5er"
+   "Set-Typus": "5er",
+   "TooltipImg": "assets/tooltips/messingpanzer.png"
  },
  {
    "Name": "Anmut der Gräue",
@@ -85,7 +92,8 @@
    "Eigenschaft": "Leben, Heilung",
    "Link": "https://eso-hub.com/de/sets/anmut-der-graue",
    "Ort": "Sommersend",
-   "Set-Typus": "5er"
+   "Set-Typus": "5er",
+   "TooltipImg": "assets/tooltips/anmut-der-graue.png"
  },
  {
    "Name": "Elendsvitalität",
@@ -96,6 +104,7 @@
    "Eigenschaft": "Ressourcen Reg.",
    "Link": "https://eso-hub.com/de/sets/elendsvitalitat",
    "Ort": "Totenländer",
-   "Set-Typus": "5er"
+   "Set-Typus": "5er",
+   "TooltipImg": "assets/tooltips/elendsvitalitat.png"
  }
 ]
