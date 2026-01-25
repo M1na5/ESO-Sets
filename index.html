@@ -44,7 +44,10 @@ body { padding: 2rem; }
         url: 'data/tank.json',
         columns: [
           { field: 'id', title: 'ID', sortable: true },
-          { field: 'Name', title: 'Name', sortable: true },
+          { field: 'Name', title: 'Name', sortable: true, formatter: function(value, row) { 
+            // value = Setname, row = das komplette JSON-Objekt
+            return `<span title="${row.Eigenschaft || ''}">${value}</span>`; }
+          },
           { field: 'Set-Typus', title: 'Set-Typus', sortable: true },
           { field: 'Art', title: 'Art', sortable: true },
           { field: 'Drop', title: 'Drop', sortable: true },
@@ -56,6 +59,14 @@ body { padding: 2rem; }
       });
     });
   </script>
+ <script>
+  $('#table').on('post-body.bs.table', function () {
+  var tooltipTriggerList = [].slice.call(document.querySelectorAll('#table [title]'))
+  tooltipTriggerList.map(function (el) {
+    return new bootstrap.Tooltip(el)
+  })
+})
+ </script>
   <script>
    $(function() {
      // Tooltips aktivieren für alle Zellen mit Eigenschaft
