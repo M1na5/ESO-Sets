@@ -69,7 +69,13 @@ body { padding: 2rem; }
       { field: 'TooltipImg', title: 'TooltipImg', sortable: false, visible: false }
     ]
   });
- });
+   // ESO-Hub Tooltips nachladen
+  $('#table').on('post-body.bs.table', function () {
+    if (window.esoHubTooltips) {
+      window.esoHubTooltips();
+    }
+  });
+});
 
   </script>
 </body>
