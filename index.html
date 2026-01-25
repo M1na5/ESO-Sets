@@ -46,20 +46,31 @@ body { padding: 2rem; }
     columns: [
       { field: 'id', title: 'ID', sortable: true },
       { field: 'Name', title: 'Name', sortable: true, formatter: function(value, row) {
-        return `<a href="${row.Link}" target="_blank" class="tooltip-set" 
-                 data-bs-toggle="popover" data-bs-html="true"
-                 data-bs-content='<img src="${row.TooltipImg}" alt="${row.Name} Tooltip">' >
-                 ${value}</a>`;
-      }},
+          return `<a href="${row.Link}" target="_blank" class="tooltip-set" 
+                   data-bs-toggle="popover" data-bs-html="true"
+                   data-bs-content='<img src="${row.TooltipImg}" alt="${row.Name} Tooltip" style="max-width:300px;">'>
+                   ${value}</a>`; 
+        }
+      },
+      { field: 'Set-Typus', title: 'Set-Typus', sortable: true },
+      { field: 'Art', title: 'Art', sortable: true },
+      { field: 'Drop', title: 'Drop', sortable: true },
+      { field: 'Ort', title: 'Ort', sortable: true },
+      { field: 'Eigenschaft', title: 'Eigenschaft', sortable: true },
+      { field: 'Anwendungsempfehlung', title: 'Empfehlung', sortable: true },
+      { field: 'Link', title: 'Link', formatter: function(value){ 
+          return `<a href="${value}" target="_blank">ESO-Hub</a>`; 
+        } 
+      },
+      { field: 'TooltipImg', title: 'TooltipImg', sortable: false, visible: false }
     ]
   });
+});
 
-  // Popovers aktivieren nach Rendering
-  $('#table').on('post-body.bs.table', function () {
-    var popoverTriggerList = [].slice.call(document.querySelectorAll('.tooltip-set'));
-    popoverTriggerList.map(function (el) {
-      return new bootstrap.Popover(el, { trigger: 'hover', placement: 'top', html: true });
-    });
+$('#table').on('post-body.bs.table', function () {
+  var popoverTriggerList = [].slice.call(document.querySelectorAll('#table .tooltip-set'));
+  popoverTriggerList.map(function (el) {
+    return new bootstrap.Popover(el, { trigger: 'hover', placement: 'top', html: true });
   });
 });
   </script>
