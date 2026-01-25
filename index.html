@@ -15,26 +15,7 @@ body { padding: 2rem; }
 .set-card { cursor: pointer; }
 </style>
 </head>
-
-<script>
-$(function() {
-  $('#table').bootstrapTable({
-    url: 'data/tank.json',
-    columns: [
-      { field: 'id', title: 'ID', sortable: true },
-      { field: 'Name', title: 'Name', sortable: true },
-      { field: 'Set-Typus', title: 'Set-Typus', sortable: true },
-      { field: 'Art', title: 'Art', sortable: true },
-      { field: 'Drop', title: 'Drop', sortable: true },
-      { field: 'Ort', title: 'Ort', sortable: true },
-      { field: 'Eigenschaft', title: 'Eigenschaft', sortable: true },
-      { field: 'Anwendungsempfehlung', title: 'Empfehlung', sortable: true },
-      { field: 'Link', title: 'Link', formatter: function(value){ return `<a href="${value}" target="_blank">ESO-Hub</a>`; } }
-    ]
-  });
-});
-</script>
-  
+ 
 <body>
 
 
@@ -48,5 +29,23 @@ $(function() {
   class="table table-striped"
 ></table>
 
+  <script>
+    $(function() {
+      $('#table').bootstrapTable({
+        url: 'data/tank.json',
+        columns: [
+          { field: 'id', title: 'ID', sortable: true },
+          { field: 'Name', title: 'Name', sortable: true },
+          { field: 'Set-Typus', title: 'Set-Typus', sortable: true },
+          { field: 'Art', title: 'Art', sortable: true },
+          { field: 'Drop', title: 'Drop', sortable: true },
+          { field: 'Ort', title: 'Ort', sortable: true },
+          { field: 'Eigenschaft', title: 'Eigenschaft', sortable: true },
+          { field: 'Anwendungsempfehlung', title: 'Empfehlung', sortable: true },
+          { field: 'Link', title: 'Link', formatter: function(value){ return `<a href="${value}" target="_blank">ESO-Hub</a>`; } }
+        ]
+      });
+    });
+  </script>
 </body>
 </html>
