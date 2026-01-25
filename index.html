@@ -56,5 +56,17 @@ body { padding: 2rem; }
       });
     });
   </script>
+  <script>
+   $(function() {
+     // Tooltips aktivieren für alle Zellen mit Eigenschaft
+     $('#table').on('post-body.bs.table', function () {
+       $('#table td[data-field="Eigenschaft"]').each(function () {
+         const value = $(this).text();
+         $(this).attr('title', value);
+         $(this).tooltip({ placement: 'top' });
+       });
+     });
+   });
+  </script>
 </body>
 </html>
