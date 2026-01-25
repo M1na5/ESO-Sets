@@ -48,7 +48,7 @@ body { padding: 2rem; }
     columns: [
       { field: 'id', title: 'ID', sortable: true },
       { field: 'Name', title: 'Name', sortable: true, formatter: function(value, row) {
-        return `<a href="${row.Link}" target="_blank">${value}</a>`;
+         return `<a href="${row.Link}" target="_blank">${value}</a>`;
         }
       },
       { field: 'Set-Typus', title: 'Set-Typus', sortable: true },
@@ -64,15 +64,7 @@ body { padding: 2rem; }
       { field: 'TooltipImg', title: 'TooltipImg', sortable: false, visible: false }
     ]
   });
-
-  // Popover aktivieren nach Rendering
-  $('#table').on('post-body.bs.table', function () {
-    var popoverTriggerList = [].slice.call(document.querySelectorAll('#table .tooltip-set'));
-    popoverTriggerList.map(function (el) {
-      return new bootstrap.Popover(el, { trigger: 'hover', placement: 'top', html: true });
-    });
-  });
-});
+ });
 
   </script>
 </body>
