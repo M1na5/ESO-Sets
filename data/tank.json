@@ -1,0 +1,101 @@
+[
+ {
+   "Name": "Zeichen des Ausgestoßenen",
+   "Anwendungsempfehlung": "🔰 anfängerfreundlich",
+   "Art": "Anfänger",
+   "Buffs": "",
+   "Drop": "Overland",
+   "Eigenschaft": "Rüstung",
+   "Link": "https://eso-hub.com/de/sets/zeichen-des-ausgestossenen",
+   "Ort": "Wrothgar",
+   "Set-Typus": "5er"
+ },
+ {
+   "Name": "https://eso-hub.com/de/sets/rustung-des-auszubildenden",
+   "Anwendungsempfehlung": "multi",
+   "Art": "Anfänger",
+   "Buffs": "",
+   "Drop": "Overland",
+   "Eigenschaft": "Ressourcen",
+   "Link": "https://eso-hub.com/de/sets/rustung-des-auszubildenden",
+   "Ort": "Anfängergebiete",
+   "Set-Typus": "3er"
+ },
+ {
+   "Name": "Druidenflechte",
+   "Anwendungsempfehlung": "multi",
+   "Art": "Anfänger",
+   "Buffs": "",
+   "Drop": "Craftable",
+   "Eigenschaft": "Ressourcen",
+   "Link": "https://eso-hub.com/de/sets/druidenflechte",
+   "Ort": "Hochinsel und Amenos",
+   "Set-Typus": "12er"
+ },
+ {
+   "Name": "Akavirische Drachengarde",
+   "Anwendungsempfehlung": "🔰 anfängerfreundlich",
+   "Art": "Anfänger",
+   "Buffs": "",
+   "Drop": "Overland",
+   "Eigenschaft": "Lebensreg., ultimative Kraft",
+   "Link": "https://eso-hub.com/de/sets/akavirische-drachengarde",
+   "Ort": "Ostmarsch",
+   "Set-Typus": "5er"
+ },
+ {
+   "Name": "Kriegerpoet",
+   "Anwendungsempfehlung": "🔰 anfängerfreundlich",
+   "Art": "Anfänger",
+   "Buffs": "kleinere Zähigkeit",
+   "Drop": "Overland",
+   "Eigenschaft": "Rüstung, Leben",
+   "Link": "https://eso-hub.com/de/sets/kriegerpoet",
+   "Ort": "Vvardenfell",
+   "Set-Typus": "5er"
+ },
+ {
+   "Name": "Seuchendoktor",
+   "Anwendungsempfehlung": "🔰 anfängerfreundlich",
+   "Art": "Anfänger",
+   "Buffs": "",
+   "Drop": "Overland",
+   "Eigenschaft": "Leben",
+   "Link": "https://eso-hub.com/de/sets/seuchendoktor",
+   "Ort": "Deshan",
+   "Set-Typus": "5er"
+ },
+ {
+   "Name": "Messingpanzer",
+   "Anwendungsempfehlung": "🔰 anfängerfreundlich",
+   "Art": "Anfänger",
+   "Buffs": "",
+   "Drop": "Overland",
+   "Eigenschaft": "Rüstung",
+   "Link": "https://eso-hub.com/de/sets/messingpanzer",
+   "Ort": "Stadt der Uhrwerke",
+   "Set-Typus": "5er"
+ },
+ {
+   "Name": "Anmut der Gräue",
+   "Anwendungsempfehlung": "🔰 anfängerfreundlich",
+   "Art": "Anfänger",
+   "Buffs": "größere Evasion",
+   "Drop": "Overland",
+   "Eigenschaft": "Leben, Heilung",
+   "Link": "https://eso-hub.com/de/sets/anmut-der-graue",
+   "Ort": "Sommersend",
+   "Set-Typus": "5er"
+ },
+ {
+   "Name": "Elendsvitalität",
+   "Anwendungsempfehlung": "🔰 anfängerfreundlich",
+   "Art": "Anfänger",
+   "Buffs": "",
+   "Drop": "Craftable",
+   "Eigenschaft": "Ressourcen Reg.",
+   "Link": "https://eso-hub.com/de/sets/elendsvitalitat",
+   "Ort": "Totenländer",
+   "Set-Typus": "5er"
+ }
+]
