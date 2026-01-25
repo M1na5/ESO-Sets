@@ -45,8 +45,10 @@ body { padding: 2rem; }
         columns: [
           { field: 'id', title: 'ID', sortable: true },
           { field: 'Name', title: 'Name', sortable: true, formatter: function(value, row) { 
-            // value = Setname, row = das komplette JSON-Objekt
-            return `<span title="${row.Eigenschaft || ''}">${value}</span>`; }
+           return `<a href="${row.Link}" target="_blank" tabindex="0" data-bs-toggle="popover" data-bs-html="true" 
+           data-bs-content="<strong>Bonus:</strong> ${row.Eigenschaft || ''}<br><strong>Empfehlung:</strong> ${row.Anwendungsempfehlung || ''}">
+            ${value}
+          </a>`; }
           },
           { field: 'Set-Typus', title: 'Set-Typus', sortable: true },
           { field: 'Art', title: 'Art', sortable: true },
@@ -58,11 +60,12 @@ body { padding: 2rem; }
         ]
       });
     });
-   
+    </script>
+   <script>
    $('#table').on('post-body.bs.table', function () {
-  // alle <span title="..."> in der Name-Spalte
-  $('#table td[data-field="Name"] span[title]').each(function () {
-    new bootstrap.Tooltip(this, { placement: 'top' });
+  var popoverTriggerList = [].slice.call(document.querySelectorAll('#table [data-bs-toggle="popover"]'))
+  popoverTriggerList.map(function (el) {
+    return new bootstrap.Popover(el, { trigger: 'hover', placement: 'top' })
   });
 });
   </script>
