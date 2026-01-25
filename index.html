@@ -71,12 +71,12 @@ body { padding: 2rem; }
   });
    // ESO-Hub Tooltips nachladen
   $('#table').on('post-body.bs.table', function () {
-    if (window.esoHubTooltips) {
-      window.esoHubTooltips();
+    if (window.addEsoHubToolTipsToAll) {
+       window.addEsoHubToolTipsToAll();
     }
   });
 });
 
-  </script>
+</script>
 </body>
 </html>
