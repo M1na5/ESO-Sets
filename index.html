@@ -14,6 +14,7 @@
 body { padding: 2rem; }
 .set-card { cursor: pointer; }
 </style>
+<script async src="https://www.elderscrollsbote.de/esodb/tooltips.js"></script>
 </head>
  
 <body>
@@ -44,11 +45,12 @@ body { padding: 2rem; }
         url: 'data/tank.json',
         columns: [
           { field: 'id', title: 'ID', sortable: true },
-          { field: 'Name', title: 'Name', sortable: true, formatter: function(value, row) { 
-           return `<a href="${row.Link}" target="_blank" tabindex="0" data-bs-toggle="popover" data-bs-html="true" 
-           data-bs-content="<strong>Bonus:</strong> ${row.Eigenschaft || ''}<br><strong>Empfehlung:</strong> ${row.Anwendungsempfehlung || ''}">
-            ${value}
-          </a>`; }
+          { field: 'Name', title: 'Name', sortable: true, formatter: function(value, row) {
+            return `<a href="${row.Link}" target="_blank" class="tooltip-set" 
+            data-bs-toggle="popover" data-bs-html="true"
+            data-bs-content='<img src="${row.TooltipImg}" alt="${row.Name} Tooltip" style="max-width:300px;">'>
+            ${value}</a>`; 
+            }
           },
           { field: 'Set-Typus', title: 'Set-Typus', sortable: true },
           { field: 'Art', title: 'Art', sortable: true },
@@ -56,7 +58,10 @@ body { padding: 2rem; }
           { field: 'Ort', title: 'Ort', sortable: true },
           { field: 'Eigenschaft', title: 'Eigenschaft', sortable: true },
           { field: 'Anwendungsempfehlung', title: 'Empfehlung', sortable: true },
-          { field: 'Link', title: 'Link', formatter: function(value){ return `<a href="${value}" target="_blank">ESO-Hub</a>`; } }
+          { field: 'Link', title: 'Link', formatter: function(value){ return `<a href="${value}" target="_blank">ESO-Hub</a>`; },
+          { field: 'TooltipImg', title: 'TooltipImg', sortable: false, visible: false },
+          
+          }
         ]
       });
     });
