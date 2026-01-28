@@ -13,11 +13,7 @@
 <link rel="stylesheet" type="text/css" href="https://eso-hub.com/css/external/tooltips.css" />
 <script src="https://eso-hub.com/js/external/tooltips.js" defer></script>
 
- <link rel="stylesheet" type="text/css" href="/css/style.css" />
-<style>
-body { padding: 2rem; }
-.set-card { cursor: pointer; }
-</style>
+<link rel="stylesheet" type="text/css" href="/css/style.css" />
 </head>
  
 <body>
@@ -50,6 +46,9 @@ body { padding: 2rem; }
   <script>
   $(function() {
   $('#table').bootstrapTable({
+   classes: 'table table-bordered table-hover my-table',
+   theadClasses: 'table-light',
+   tbodyClasses: 'table-group-divider',
     url: 'data/tank.json',
     columns: [
       { field: 'id', title: 'ID', sortable: true },
