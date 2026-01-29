@@ -1,4 +1,12 @@
-body { padding: 2rem; }
-.set-card { cursor: pointer; }
+body { }
+set-card { cursor: pointer; }
+
 
 h1 {color:#ffbf00;}
+
+.text-red-500 {
+    color: #fb2c36;
+}
+.fill-red-500 {
+    fill: #fb2c36;
+}
