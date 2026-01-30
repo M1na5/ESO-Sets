@@ -93,7 +93,7 @@
         tbodyClasses: 'table-group-divider',
         url: 'data/tank.json',
         columns: [
-          { field: 'id', title: 'ID', sortable: true },
+          { field: 'id', title: 'ID', sortable: true,  },
           {
             field: 'Name', title: 'Name', sortable: true, formatter: function (value, row) {
               return `<a href="${row.Link}" target="_blank">${value}</a>`;
@@ -108,7 +108,7 @@
           {
             field: 'Link', title: 'Link', formatter: function (value) {
               return `<a href="${value}" target="_blank">ESO-Hub</a>`;
-            }
+            }, sortable: false, visible: false
           },
           { field: 'TooltipImg', title: 'TooltipImg', sortable: false, visible: false }
         ]
