@@ -1,27 +1,14 @@
 [
  {
-   "Name": "Zeichen des Ausgestoßenen",
-   "Anwendungsempfehlung": "🔰 anfängerfreundlich",
-   "Art": "Anfänger",
-   "Buffs": "keine",
-   "Drop": "Overland",
-   "Eigenschaft": "Rüstung",
-   "Link": "https://eso-hub.com/de/sets/zeichen-des-ausgestossenen",
-   "Ort": "Wrothgar",
-   "Set-Typus": "5er",
-   "TooltipImg": "assets/tooltips/zeichen-des-ausgestossenen.png"
- },
- {
    "Name": "Rüstung des Auszubildenden",
    "Anwendungsempfehlung": "multi",
    "Art": "Anfänger",
    "Buffs": "keine",
    "Drop": "Overland",
-   "Eigenschaft": "Ressourcen",
+   "Info": "Ressourcen",
    "Link": "https://eso-hub.com/de/sets/rustung-des-auszubildenden",
    "Ort": "Anfängergebiete",
-   "Set-Typus": "3er",
-   "TooltipImg": "assets/tooltips/rustung-des-auszubildenden.png"
+   "Set-Typus": "3er"
  },
  {
    "Name": "Druidenflechte",
@@ -29,11 +16,10 @@
    "Art": "Anfänger",
    "Buffs": "keine",
    "Drop": "Craftable",
-   "Eigenschaft": "Ressourcen",
+   "Info": "Ressourcen",
    "Link": "https://eso-hub.com/de/sets/druidenflechte",
    "Ort": "Hochinsel und Amenos",
-   "Set-Typus": "12er",
-   "TooltipImg": "assets/tooltips/druidenflechte.png"
+   "Set-Typus": "12er"
  },
  {
    "Name": "Akavirische Drachengarde",
@@ -41,11 +27,10 @@
    "Art": "Anfänger",
    "Buffs": "keine",
    "Drop": "Overland",
-   "Eigenschaft": "Lebensreg., ultimative Kraft",
+   "Info": "Lebensreg., ultimative Kraft",
    "Link": "https://eso-hub.com/de/sets/akavirische-drachengarde",
    "Ort": "Ostmarsch",
-   "Set-Typus": "5er",
-   "TooltipImg": "assets/tooltips/akavirische-drachengarde.png"
+   "Set-Typus": "5er"
  },
  {
    "Name": "Kriegerpoet",
@@ -53,11 +38,10 @@
    "Art": "Anfänger",
    "Buffs": "kleinere Zähigkeit",
    "Drop": "Overland",
-   "Eigenschaft": "Rüstung, Leben",
+   "Info": "Rüstung, Leben",
    "Link": "https://eso-hub.com/de/sets/kriegerpoet",
    "Ort": "Vvardenfell",
-   "Set-Typus": "5er",
-   "TooltipImg": "assets/tooltips/kriegerpoet.png"
+   "Set-Typus": "5er"
  },
  {
    "Name": "Seuchendoktor",
@@ -65,23 +49,10 @@
    "Art": "Anfänger",
    "Buffs": "keine",
    "Drop": "Overland",
-   "Eigenschaft": "Leben",
+   "Info": "Leben",
    "Link": "https://eso-hub.com/de/sets/seuchendoktor",
    "Ort": "Deshan",
-   "Set-Typus": "5er",
-   "TooltipImg": "assets/tooltips/seuchendoktor.png"
- },
- {
-   "Name": "Messingpanzer",
-   "Anwendungsempfehlung": "🔰 anfängerfreundlich",
-   "Art": "Anfänger",
-   "Buffs": "keine",
-   "Drop": "Overland",
-   "Eigenschaft": "Rüstung",
-   "Link": "https://eso-hub.com/de/sets/messingpanzer",
-   "Ort": "Stadt der Uhrwerke",
-   "Set-Typus": "5er",
-   "TooltipImg": "assets/tooltips/messingpanzer.png"
+   "Set-Typus": "5er"
  },
  {
    "Name": "Anmut der Gräue",
@@ -89,11 +60,10 @@
    "Art": "Anfänger",
    "Buffs": "größere Evasion",
    "Drop": "Overland",
-   "Eigenschaft": "Leben, Heilung",
+   "Info": "Leben, Heilung",
    "Link": "https://eso-hub.com/de/sets/anmut-der-graue",
    "Ort": "Sommersend",
-   "Set-Typus": "5er",
-   "TooltipImg": "assets/tooltips/anmut-der-graue.png"
+   "Set-Typus": "5er"
  },
  {
    "Name": "Elendsvitalität",
@@ -101,10 +71,218 @@
    "Art": "Anfänger",
    "Buffs": "keine",
    "Drop": "Craftable",
-   "Eigenschaft": "Ressourcen Reg.",
+   "Info": "Ressourcen Reg.",
    "Link": "https://eso-hub.com/de/sets/elendsvitalitat",
    "Ort": "Totenländer",
-   "Set-Typus": "5er",
-   "TooltipImg": "assets/tooltips/elendsvitalitat.png"
+   "Set-Typus": "5er"
+ },
+ {
+   "Name": "Spalt des Karmesinschwurs",
+   "Anwendungsempfehlung": "🏰 Dungeon, 👥 Prüfung / Raid",
+   "Art": "Standard",
+   "Buffs": "",
+   "Drop": "Dungeon",
+   "Info": "Rüstung Buff / Debuff",
+   "Link": "https://eso-hub.com/de/sets/spalt-des-karmesinschwurs",
+   "Ort": "Der Schreckenskeller",
+   "Set-Typus": "5er"
+ },
+ {
+   "Name": "Dracheneile",
+   "Anwendungsempfehlung": "🏰 Dungeon",
+   "Art": "situativ",
+   "Buffs": "größeres Heldentum",
+   "Drop": "Dungeon",
+   "Info": "bei länger anhaltenden Kämpfen mit kleinen Mitspielerzahl",
+   "Link": "https://eso-hub.com/de/sets/dracheneile",
+   "Ort": "Schwarzdrachenvilla",
+   "Set-Typus": "5er"
+ },
+ {
+   "Name": "Arkasis' Genie",
+   "Anwendungsempfehlung": "🏰 Dungeon, 👥 Prüfung / Raid",
+   "Art": "situativ",
+   "Buffs": "keine",
+   "Drop": "Dungeon",
+   "Info": "im Trash nutzbar",
+   "Link": "https://eso-hub.com/de/sets/arkasis-genie",
+   "Ort": "Steingarten",
+   "Set-Typus": "5er"
+ },
+ {
+   "Name": "Perfektionierte Kralle von Yolnahkriin",
+   "Anwendungsempfehlung": "👥 Prüfung / Raid",
+   "Art": "situativ",
+   "Buffs": "kleinere Ägis, kleinerer Mut",
+   "Drop": "Raid",
+   "Info": "",
+   "Link": "https://eso-hub.com/de/sets/perfektionierte-kralle-von-yolnahkriin",
+   "Ort": "Sonnspitz",
+   "Set-Typus": "5er"
+ },
+ {
+   "Name": "Ebenerzarsenal",
+   "Anwendungsempfehlung": "multi",
+   "Art": "Anfänger",
+   "Buffs": "",
+   "Drop": "Dungeon",
+   "Info": "Einsteigerset",
+   "Link": "https://eso-hub.com/de/sets/ebenerzarsenal",
+   "Ort": "Krypta der Herzen I, Krypta der Herzen II",
+   "Set-Typus": "5er"
+ },
+ {
+   "Name": "Perfektionierter Perlenglanz-Schutz",
+   "Anwendungsempfehlung": "👥 Prüfung / Raid",
+   "Art": "Standard",
+   "Buffs": "kleinere Ägis",
+   "Drop": "Raid",
+   "Info": "",
+   "Link": "https://eso-hub.com/de/sets/perfektionierter-perlenglanz-schutz",
+   "Ort": "Grauenssegelriff",
+   "Set-Typus": "5er"
+ },
+ {
+   "Name": "Kraftvoller Ansturm",
+   "Anwendungsempfehlung": "🏰 Dungeon, 👥 Prüfung / Raid",
+   "Art": "Standard",
+   "Buffs": "",
+   "Drop": "PVP / Händler",
+   "Info": "Tel'Var Händler - Gildenhändler",
+   "Link": "https://eso-hub.com/de/sets/kraftvoller-ansturm",
+   "Ort": "kaiserliche Kanalisation",
+   "Set-Typus": "5er"
+ },
+ {
+   "Name": "Perfektionierter Saxhleel-Champion",
+   "Anwendungsempfehlung": "👥 Prüfung / Raid",
+   "Art": "Standard",
+   "Buffs": "größere Kraft",
+   "Drop": "Raid",
+   "Info": "in Anfängerraidgruppen gut spielbar - gute Kombination mit Nazaray - 400+ Ultisetup",
+   "Link": "https://eso-hub.com/de/sets/perfektionierter-saxhleel-champion",
+   "Ort": "Felshain",
+   "Set-Typus": "5er"
+ },
+ {
+   "Name": "Nazaray",
+   "Anwendungsempfehlung": "🏰 Dungeon, 👥 Prüfung / Raid",
+   "Art": "Standard",
+   "Buffs": "",
+   "Drop": "Dungeon",
+   "Info": "mit Saxhleel gut kombinierbar - Buff- / Debuffverlängerung",
+   "Link": "",
+   "Ort": "Gram des Schiffbauers",
+   "Set-Typus": "Monster"
+ },
+ {
+   "Name": "Gezeitenwechsel",
+   "Anwendungsempfehlung": "🏰 Dungeon, 👥 Prüfung / Raid",
+   "Art": "Standard",
+   "Buffs": "Größere Verwundbarkeit",
+   "Drop": "Dungeon",
+   "Info": "",
+   "Link": "https://eso-hub.com/de/sets/gezeitenwechsel",
+   "Ort": "Gram des Schiffbauers",
+   "Set-Typus": "5er"
+ },
+ {
+   "Name": "Kriegsmaschine",
+   "Anwendungsempfehlung": "🏰 Dungeon, 👥 Prüfung / Raid",
+   "Art": "Standard",
+   "Buffs": "Kleinerer Schlächter, größerer Schlächter",
+   "Drop": "Raid",
+   "Info": "",
+   "Link": "https://eso-hub.com/de/sets/kriegsmaschine",
+   "Ort": "Hallen der Fertigung",
+   "Set-Typus": "5er"
+ },
+ {
+   "Name": "Erzdruide Devyric",
+   "Anwendungsempfehlung": "🏰 Dungeon, 👥 Prüfung / Raid",
+   "Art": "Standard",
+   "Buffs": "Größere Verwundbarkeit",
+   "Drop": "Dungeon",
+   "Info": "gleicher Buff wie bei Gezeitenwechsel",
+   "Link": "https://eso-hub.com/de/sets/erzdruide-devyric",
+   "Ort": "Erdwurz-Enklave",
+   "Set-Typus": "Monster"
+ },
+ {
+   "Name": "Blutbrut",
+   "Anwendungsempfehlung": "🏰 Dungeon, 👥 Prüfung / Raid",
+   "Art": "Standard",
+   "Buffs": "",
+   "Drop": "Dungeon",
+   "Info": "gut in Kämpfen mit permanentem Schaden - Ultimative Kraft",
+   "Link": "https://eso-hub.com/de/sets/die-blutbrut",
+   "Ort": "Spindeltiefen II",
+   "Set-Typus": "Monster"
+ },
+ {
+   "Name": "Fürstin Dorn",
+   "Anwendungsempfehlung": "🏰 Dungeon, 👥 Prüfung / Raid",
+   "Art": "situativ",
+   "Buffs": "größeres Verkrüppeln",
+   "Drop": "Dungeon",
+   "Info": "wird durch Lebensverlust durch Fähigkeiten ausgelöst. +in Kombi mit “Auslaugenden Schlägen” oder Vampir +eigene Synergie ",
+   "Link": "https://eso-hub.com/de/sets/furstin-dorn",
+   "Ort": "Kastell Dorn",
+   "Set-Typus": "Monster"
+ },
+ {
+   "Name": "Magmaverkörperung",
+   "Anwendungsempfehlung": "🏰 Dungeon, 👥 Prüfung / Raid",
+   "Art": "situativ",
+   "Buffs": "",
+   "Drop": "Dungeon",
+   "Info": "in Kombination mit - “Schulterbänder des Untergangs”",
+   "Link": "https://eso-hub.com/de/sets/magmaverkorperung",
+   "Ort": "Der Schreckenskeller",
+   "Set-Typus": "Monster"
+ },
+ {
+   "Name": "Schulterbänder des Untergangs",
+   "Anwendungsempfehlung": "🏰 Dungeon, 👥 Prüfung / Raid",
+   "Art": "situativ",
+   "Buffs": "",
+   "Drop": "Spuren",
+   "Info": "Magmaverkörperung hilft beim Sustain",
+   "Link": "https://eso-hub.com/de/sets/schulterbander-des-untergangs",
+   "Ort": "Totenländer",
+   "Set-Typus": "Antiquität"
+ },
+ {
+   "Name": "Perfektionierte durchschlagende Genesung",
+   "Anwendungsempfehlung": "multi",
+   "Art": "Anfänger",
+   "Buffs": "",
+   "Drop": "Arena",
+   "Info": "Regeneration - Durchstoß (Schwert-Schild) erforderlich",
+   "Link": "https://eso-hub.com/de/sets/perfektionierte-durchschlagende-genesung",
+   "Ort": "Drachenstern-Arena",
+   "Set-Typus": "Arena Waffe"
+ },
+ {
+   "Name": "Perlen der Ehlnofey",
+   "Anwendungsempfehlung": "multi",
+   "Art": "situativ",
+   "Buffs": "größeres Heldentum",
+   "Drop": "Spuren",
+   "Info": "",
+   "Link": "https://eso-hub.com/de/sets/perlen-der-ehlnofey",
+   "Ort": "Markarth",
+   "Set-Typus": "Antiquität"
+ },
+ {
+   "Name": "Syrabanns Schutz",
+   "Anwendungsempfehlung": "multi",
+   "Art": "situativ",
+   "Buffs": "",
+   "Drop": "Spuren",
+   "Info": "gut in stationären Kämpfen / Nachtklingen Tank",
+   "Link": "https://eso-hub.com/de/sets/syrabanns-schutz",
+   "Ort": "Galen & Y'ffelon",
+   "Set-Typus": "Antiquität"
  }
 ]
